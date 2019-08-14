@@ -481,6 +481,10 @@ a {
     max-width: 976px;
   }
 
+.wrapper--narrow {
+    max-width: 470px;
+  }
+
 .wrapper--no-padding-until-medium {
     padding-left: 0;
     padding-right: 0;
@@ -797,6 +801,11 @@ a {
 
 .section-title--blue {
     color: #2f5572;
+  }
+
+.section-title--less-margin {
+    margin-bottom: 1.3rem;
+    margin-top: 0;
   }
 
 .section-title__icon {
@@ -1159,3 +1168,102 @@ a {
         opacity: 1;
         transform: scale(1);
     }
+
+.modal {
+    position: fixed;
+    z-index: 5;
+    background-color: rgba(255, 255, 255, .94);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    transform: scale(1.2);
+    transition: all .3s ease-out;
+}
+
+.modal--is-visible {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+    }
+
+.modal__inner {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+.modal__description {
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 300;
+        line-height: 1.65;
+    }
+
+.modal__close {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 2rem;
+        cursor: pointer;
+        transform: scaleX(1.2);
+        transform-origin: 100% 0;
+        color: #2f5572;
+    }
+
+.modal__close:hover {
+            color: #d59541;
+        }
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons .fa {
+        display: inline-block;
+        padding: 20px;
+        font-size: 33px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        width: 33%;
+        height: 70px;
+      }
+
+@media (min-width: 800px) {
+
+.social-icons .fa {
+            width: 70px
+      }
+    }
+
+/* Facebook */
+
+.social-icons .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+/* Twitter */
+
+.social-icons .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+/* Facebook */
+
+.social-icons .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+
+/* Twitter */
+
+.social-icons .fa-youtube {
+            background: #bb0000;
+            color: white;
+        }

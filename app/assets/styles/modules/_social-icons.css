@@ -1,0 +1,43 @@
+.social-icons {
+    text-align: center;
+
+    .fa {
+        display: inline-block;
+        padding: 20px;
+        font-size: 33px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        width: 33%;
+        height: 70px;
+
+        @mixin atMedium {
+            width: 70px;
+        }
+      }
+
+      /* Facebook */
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+        
+        /* Twitter */
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+        /* Facebook */
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+        
+        /* Twitter */
+        .fa-youtube {
+            background: #bb0000;
+            color: white;
+        }
+}

@@ -4,6 +4,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Clear View Escapes</title>
   <meta name="keywords" content="Travel planning, travel bundles, travel escapes, affordable travel">
   <meta name="description" content="Your clarify. One trip away. We create soul restoring journeys that inspire you to be you.">
@@ -24,7 +25,7 @@
 
       <div class="site-header__menu-content">
         <div class="site-header__btn-container">
-          <a href="#" class="btn">Get in Touch</a>
+          <a href="#" class="btn open-modal">Get in Touch</a>
         </div>
         <nav class="primary-nav primary-nav--pull-right">
           <ul>
@@ -51,7 +52,7 @@
         <h1 class="large-hero__title">Your clarity.</h1>
         <h2 class="large-hero__subtitle">One trip away.</h2>
         <p class="large-hero__description">We create soul restoring journeys that inspire you to be you.</p>
-        <p><a href="#" class="btn btn--orange btn--large">Get Started Today</a></p>
+        <p><a href="#" class="btn btn--orange btn--large open-modal">Get Started Today</a></p>
       </div>
     </div>
   </div>
@@ -126,7 +127,7 @@
 
   <div id="testimonials" class="page-section page-section--no-b-padding-until-large page-section--testimonials" data-matching-link="#testimonials-link">
     <div class="wrapper wrapper--no-padding-until-large">
-      <h2 class="section-title section-title--blue"><span class="icon icon--comment section-title__icon"></span> Real <strong>Testimonials</strong></h2>
+      <h2 class="section-title section-title--blue"><img class="section-title__icon" src="assets/images/icons/comment.svg"> Real <strong>Testimonials</strong></h2>
 
       <div class="row row--gutters row--equal-height-at-large row--gutters-small row--t-padding generic-content-container">
         <div class="row__large-4">
@@ -167,9 +168,27 @@
 
   <footer class="site-footer">
     <div class="wrapper">
-      <p><span class="site-footer__text">Copyright &copy; 2016 Clear View Escapes. All rights reserved.</span> <a href="#" class="btn btn--orange">Get in Touch</a></p>
+      <p><span class="site-footer__text">Copyright &copy; 2016 Clear View Escapes. All rights reserved.</span> <a href="#" class="btn btn--orange open-modal">Get in Touch</a></p>
     </div>
   </footer>
+
+  <div class="modal">
+    <div class="modal__inner">
+      <h2 class="section-title section-title--blue section-title--less-margin"><img class="section-title__icon" src="assets/images/icons/mail.svg"> Get in <strong>Touch</strong></h2>
+    <div class="wrapper wrapper--narrow">
+      <p class="modal__description">We will have an online order system in place soon. Until then, connect with us on any of the platforms below!</p>
+    </div>
+
+    <div class="social-icons">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-youtube"></a>
+    </div>
+    </div>
+    <div class="modal__close">X</div>
+  </div>
+
   <script src="/temp/scripts/App.js"></script>
 </body>
 </html>
